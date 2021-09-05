@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Summary</title>
+</head>
+<body>
+{% if account %}
+    <p>Account number: {{ account.card_number }}</p>
+    <p>Account balance: <b>{{ account.balance }}</b> {{ account.currency }}</p>
+{% else %}
+    <p>Nothing related to this card number is found!</p>
+{% endif %}
+
+</body>
+</html>
