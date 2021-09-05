@@ -14,4 +14,4 @@ python manager.py runserver
 to create a new app:
 first, run: python manager.py startapp *[appname]*
 
-then add the *[appname]* to the INSTALLED_APPS list
+then add the *[appname]* to the `INSTALLED_APPS` list
